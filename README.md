@@ -27,23 +27,16 @@ Você pode usar o seguinte documento HTML como ponto de partida:
     <body>
         <h1>Multiplication Table</h1>
         <script>
-
-            function tabelMulti(n) {
+function nomeDaSuaFuncao(n) {
         // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
         // escreve a coluna inicial
         let x = [];
         for (let i = 0; i <= n; i++) {
           x[i] = [];
-          for(let c = 0; c <= n; c++){
-              x[i].push(i * c);
-              if(c === n && c < n){
-                  x.push(x[i])
-              } 
-          }
         }
         console.table(x);
-                // TODO: escrever dois loops aninhados para desenhar o array bidimencional e monstar o restante da tabela no console.
-            }
+        // TODO: escrever dois loops aninhados para desenhar o array bidimencional e monstar o restante da tabela no console.
+      }
         </script>
     </body>
 </html>
